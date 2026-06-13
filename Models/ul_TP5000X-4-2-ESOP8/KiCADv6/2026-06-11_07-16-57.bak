@@ -276,8 +276,8 @@
 		)
 		(symbol "TP5000X-4.2-ESOP8_1_1"
 			(pin power_in line
-				(at 0.508 -7.62 0)
-				(length 7.112)
+				(at 0 -7.62 0)
+				(length 7.62)
 				(name "BAT"
 					(effects
 						(font
