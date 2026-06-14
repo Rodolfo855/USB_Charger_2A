@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/Victor Rosales/Documents/USB_Charger_2A/USB_CHARGER_LITHIUM/GerberFiles/DrillFiles/")
 		)
 	)
 	(net 0 "")
@@ -3488,7 +3488,8 @@
 		(property "Reference" "J3"
 			(at 1 -2.9 0)
 			(layer "F.SilkS")
-			(uuid "fcd08a5d-b5f9-466f-a9a8-09916995eaf4")
+			(hide yes)
+			(uuid "7755cdf5-a11e-4586-99d1-53b756aba207")
 			(effects
 				(font
 					(size 1 1)
@@ -3499,7 +3500,7 @@
 		(property "Value" "Conn_01x02"
 			(at 1 4 0)
 			(layer "F.Fab")
-			(uuid "5064445c-6d6a-4012-97ff-7b390cd0e1d1")
+			(uuid "d2fdb694-4467-494e-aed7-f4415d76af5a")
 			(effects
 				(font
 					(size 1 1)
@@ -3511,7 +3512,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4975ce0-4eb3-43b5-a0cd-a49a053fcc84")
+			(uuid "88e4e9ec-6932-4c53-88e8-a791f4f61584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3524,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64b9be68-ca00-4df2-8be9-2f47993f9b9c")
+			(uuid "c8802192-25c2-40d4-8aec-d2afc2c2ef1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,13 +5224,13 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
-			(at 1.25 -3.55 0)
+			(at 0.095 -3.92 0)
 			(layer "F.SilkS")
 			(uuid "597d220a-62c2-484c-b9f7-60cce9806189")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 2 2)
+					(thickness 0.25)
 				)
 			)
 		)
@@ -6778,6 +6779,51 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "8428b40f-2bd6-4ecd-8cca-e28bee4d6008")
+	)
+	(gr_text "+"
+		(at 160.02 48.895 0)
+		(layer "F.SilkS")
+		(uuid "178c7f5b-03d9-4769-92d8-0f1e73e2450a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 162.56 48.895 0)
+		(layer "F.SilkS")
+		(uuid "1becb13c-375a-45e4-8132-b72144520fe1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "BAT"
+		(at 149.225 59.055 0)
+		(layer "F.SilkS")
+		(uuid "c282e0df-d713-46bf-8266-0958213bb1c5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 152.4 48.895 0)
+		(layer "F.SilkS")
+		(uuid "da43727b-e0a0-4432-82b2-d42a2bb413ab")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+		)
 	)
 	(gr_text "ROSALES"
 		(at 146.685 75.565 0)

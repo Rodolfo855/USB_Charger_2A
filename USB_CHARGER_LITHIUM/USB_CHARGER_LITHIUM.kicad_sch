@@ -3587,6 +3587,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5438410"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B5"
 			(uuid "1f9fdb7c-6a08-4fb3-abc6-f86b1fd7267e")
 		)
@@ -3804,6 +3813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C131337"
+			(at 243.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9f49ddf-74d7-4c6d-81d7-e1a18ca9b0b2")
 		)
@@ -3866,6 +3884,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C158012"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -4010,6 +4037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907232"
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f3361481-c9ae-4433-9554-21cf35a64480")
 		)
@@ -4072,6 +4108,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28323"
 			(at 116.84 59.69 0)
 			(effects
 				(font
@@ -4213,6 +4258,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2907232"
+			(at 218.44 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "979c90b6-2653-41aa-a949-215ff4a1dd6a")
 		)
@@ -4346,6 +4400,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C76857"
+			(at 171.45 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62e76830-0495-4a40-9697-8c1b474edea1")
 		)
@@ -4425,6 +4488,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19273154"
+			(at 106.68 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e289550-b7db-4aea-ba5c-ddc4e4952fc6")
 		)
@@ -4495,6 +4567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e26f6f2-620e-4cb3-b2ba-ae644c94fa13")
 		)
@@ -4556,6 +4637,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
 			(at 177.8 110.49 0)
 			(effects
 				(font
@@ -4643,6 +4733,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25170727"
+			(at 92.71 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15bf3433-4c47-4ade-9a1f-7e5b61be4001")
 		)
@@ -4705,6 +4804,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
 			(at 66.04 72.39 0)
 			(effects
 				(font
@@ -4981,6 +5089,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "USB_CHARGER_LITHIUM"
 				(path "/740b141e-76db-4770-b8b7-f30b8f055222"
@@ -5071,6 +5188,15 @@
 			)
 		)
 		(property "Supplier" "LCSC"
+			(at 256.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2681921"
 			(at 256.54 95.25 0)
 			(effects
 				(font
@@ -5173,7 +5299,7 @@
 		(at 80.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5215,6 +5341,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 80.01 59.69 0)
 			(effects
 				(font
@@ -5285,6 +5420,15 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C908680"
+			(at 165.1 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,6 +5564,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1713"
 			(at 201.93 111.76 0)
 			(effects
 				(font
@@ -5564,6 +5717,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 30.48 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/740b141e-76db-4770-b8b7-f30b8f055222"
@@ -5618,6 +5780,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 189.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2903475"
+			(at 189.23 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,6 +5923,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5447152"
 			(at 158.75 100.33 0)
 			(effects
 				(font
@@ -5906,6 +6086,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 229.87 111.76 0)
 			(effects
 				(font
