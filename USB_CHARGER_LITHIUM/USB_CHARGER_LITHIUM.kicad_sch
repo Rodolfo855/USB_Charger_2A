@@ -2200,6 +2200,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ul_TP5000X-4-2-ESOP8:TP5000X-4.2-ESOP8"
 			(pin_names
 				(offset 0.254)
@@ -2548,6 +2673,12 @@
 		(uuid "4db9437c-6f0b-4bf3-9bb6-303ea3610a46")
 	)
 	(junction
+		(at 49.53 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc349d0-8eb0-4ee7-9a11-1109b48a7c72")
+	)
+	(junction
 		(at 229.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2701,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 80.01 48.26)
+			(xy 45.72 48.26) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2921,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 48.26) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2b8f9d-5f74-4850-b662-570609c1b210")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 100.33 55.88)
 		)
 		(stroke
@@ -3049,6 +3190,16 @@
 			(type default)
 		)
 		(uuid "82870e29-fe4b-4f57-865e-c7a7b09b97aa")
+	)
+	(wire
+		(pts
+			(xy 49.53 44.45) (xy 49.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8505994a-5ac8-4fa3-aa8f-00c05819b6b2")
 	)
 	(wire
 		(pts
@@ -5287,6 +5438,72 @@
 			(project ""
 				(path "/740b141e-76db-4770-b8b7-f30b8f055222"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 49.53 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb92759-a7d6-437f-b1b5-5da3441ca733")
+		(property "Reference" "#PWR017"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a85d1f-2305-49fc-838a-fc505280adc1")
+		)
+		(instances
+			(project ""
+				(path "/740b141e-76db-4770-b8b7-f30b8f055222"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
