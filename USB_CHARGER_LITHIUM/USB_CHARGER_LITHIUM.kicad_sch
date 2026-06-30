@@ -5062,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
 			(at 30.48 153.67 0)
 			(effects
 				(font
